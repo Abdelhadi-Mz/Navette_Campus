@@ -218,7 +218,11 @@ Interface de suivi en temps réel"
 ## 13. Démo et documentation
 
 ### Vidéos
-- Tableau de bord admin : [Ajouter lien]
+- Tableau de bord admin : [
+
+https://github.com/user-attachments/assets/09256d4b-931f-494c-9337-d79dec37b909
+
+]
 - Application mobile : [Ajouter lien]
 
 ### Diagrammes
