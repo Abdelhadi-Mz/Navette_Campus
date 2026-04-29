@@ -213,21 +213,9 @@ Interface de suivi en temps réel"
 /screenshots"
 ```
 
----
 
-## 13. Auteurs
 
-Développé à l'École Normale Supérieure (ENS)
-
-Auteur :
-- Abdelhadi El Mezouari
-
-Encadrant :
-- Lachgar Mohamed
-
----
-
-## 14. Démo et documentation
+## 13. Démo et documentation
 
 ### Vidéos
 - Tableau de bord admin : [Ajouter lien]
@@ -245,7 +233,7 @@ Encadrant :
 
 ---
 
-## 15. Instructions d'installation
+## 14. Instructions d'installation
 
 ### Prérequis
 - Node.js / PHP installés
@@ -266,12 +254,27 @@ Encadrant :
 
 ---
 
-## 16. Améliorations futures
+## 15. Améliorations futures
 
 - Prédiction ETA basée sur l'IA
 - Notifications push
 - Mode hors ligne pour les conducteurs
 - Déploiement cloud (AWS / Firebase)
 - Support multi-campus
+
+---
+---
+
+## 16. Auteurs
+
+Développé à l'École Normale Supérieure (ENS)
+
+Auteur :
+- Abdelhadi El Mezouari
+
+Encadrant :
+- Lachgar Mohamed
+ 
+Ce projet est réalisé dans le cadre d'un Projet de Fin de Module à l'ENS Marrakech.
 
 ---
