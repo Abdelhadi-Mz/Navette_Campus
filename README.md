@@ -275,6 +275,6 @@ Auteur :
 Encadrant :
 - Lachgar Mohamed
  
-Ce projet est réalisé dans le cadre d'un Projet de Fin de Module à l'ENS Marrakech.
+Ce projet est réalisé dans le cadre d'un Projet de Fin de Module .
 
 ---
