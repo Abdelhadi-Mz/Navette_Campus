@@ -177,7 +177,7 @@ Interface de suivi en temps réel"
 ## 10. Technologies utilisées
 
 ### Mobile
-- Android (Java / Kotlin)
+- Android (Java )
 - Google Maps API
 
 ### Web
@@ -185,7 +185,7 @@ Interface de suivi en temps réel"
 - JavaScript / TypeScript
 
 ### Backend
-- PHP / Node.js (API REST)
+- Node.js (API REST)
 - Communication JSON
 
 ### Base de données
