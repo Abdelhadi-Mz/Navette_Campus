@@ -147,21 +147,9 @@ Interface de suivi en temps réel"
                        Tableau de bord web + utilisateurs mobiles"
 ```
 
----
 
-## 8. Captures d'écran
 
-### Application mobile
 
-| Accueil | Carte | Détails |
-|--------|-------|--------|
-| ![Accueil](screenshots/mobile_home.png) | ![Carte](screenshots/mobile_map.png) | ![Détails](screenshots/mobile_details.png) |
-
-### Tableau de bord Web
-
-| Tableau de bord | Gestion des navettes | Suivi en temps réel |
-|----------------|---------------------|---------------------|
-| ![Dashboard](screenshots/web_dashboard.png) | ![Navettes](screenshots/web_shuttles.png) | ![Suivi](screenshots/web_tracking.png) |
 
 ---
 
@@ -223,7 +211,11 @@ Interface de suivi en temps réel"
 https://github.com/user-attachments/assets/09256d4b-931f-494c-9337-d79dec37b909
 
 ]
-- Application mobile : [Ajouter lien]
+- Application mobile : [
+
+https://github.com/user-attachments/assets/083798bc-c116-4f77-b8be-4faa8e84a010
+
+]
 
 ### Diagrammes
 - Diagramme de classes :<img width="242" height="453" alt="diagrammeClasslIv" src="https://github.com/user-attachments/assets/4352b09e-9a76-460c-99a9-b2c2c10bd4f5" />
