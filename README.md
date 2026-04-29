@@ -1,7 +1,7 @@
 # Système de Suivi de Navette de Campus
 
 <p align="center">
- <img width="500" height="500" alt="Untitled-1" src="https://github.com/user-attachments/assets/a7fdaee9-82eb-4ccd-9641-d8f977daa316" />
+ <img width="250" height="250" alt="Untitled-1" src="https://github.com/user-attachments/assets/a7fdaee9-82eb-4ccd-9641-d8f977daa316" />
 
 </p>
 
