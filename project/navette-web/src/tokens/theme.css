@@ -1,0 +1,124 @@
+:root {
+  color-scheme: dark;
+
+  /* Surfaces */
+  --nc-bg:             #0E1013;
+  --nc-surface:        #161A1F;
+  --nc-surface-2:      #1D2229;
+  --nc-sidebar:        #12151A;
+  --nc-sidebar-active: rgba(229,72,77,0.16);
+
+  /* Lines */
+  --nc-line:           rgba(255,255,255,0.07);
+  --nc-line-strong:    rgba(255,255,255,0.12);
+
+  /* Text */
+  --nc-text:           #F3F5F8;
+  --nc-text-muted:     #9AA3AE;
+  --nc-text-dim:       #6B727C;
+
+  /* Brand (coral-red) */
+  --nc-brand:          #E5484D;
+  --nc-brand-deep:     #B8383C;
+  --nc-brand-soft:     rgba(229,72,77,0.14);
+
+  /* Semantic */
+  --nc-success:        #3DD68C;
+  --nc-success-soft:   rgba(61,214,140,0.14);
+  --nc-warning:        #F5A623;
+  --nc-warning-soft:   rgba(245,166,35,0.16);
+  --nc-danger:         #E5484D;
+  --nc-danger-soft:    rgba(229,72,77,0.14);
+  --nc-info:           #4DA6FF;
+  --nc-info-soft:      rgba(77,166,255,0.14);
+
+  /* Route / map hues */
+  --nc-route-1: #E5484D;
+  --nc-route-2: #F5A623;
+  --nc-route-3: #3DD68C;
+  --nc-route-4: #4DA6FF;
+  --nc-route-5: #B07CF5;
+
+  /* Sidebar text (sidebar stays dark in both themes) */
+  --nc-sidebar-text:       #F3F5F8;
+  --nc-sidebar-text-muted: #9AA3AE;
+  --nc-sidebar-text-dim:   #6B727C;
+  --nc-sidebar-border:     rgba(255,255,255,0.07);
+  --nc-sidebar-hover:      rgba(255,255,255,0.06);
+
+  /* Radii */
+  --nc-r-xs:   4px;
+  --nc-r-sm:   8px;
+  --nc-r-md:   12px;
+  --nc-r-lg:   14px;
+  --nc-r-xl:   20px;
+  --nc-r-pill: 999px;
+
+  /* Spacing scale (4 px base) */
+  --nc-s-1:  4px;
+  --nc-s-2:  8px;
+  --nc-s-3:  12px;
+  --nc-s-4:  16px;
+  --nc-s-5:  20px;
+  --nc-s-6:  24px;
+  --nc-s-8:  32px;
+  --nc-s-10: 40px;
+  --nc-s-12: 48px;
+
+  /* Fonts */
+  --nc-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --nc-font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* ─── Light mode: Cool Campus ──────────────────────────────────────────────── */
+/* Palette: platinum bg · space-indigo text · punch-red brand                 */
+/* flag-red danger · lavender-grey muted · space-indigo sidebar               */
+
+[data-theme="light"] {
+  color-scheme: light;
+
+  /* Surfaces */
+  --nc-bg:             #edf2f4;
+  --nc-surface:        #ffffff;
+  --nc-surface-2:      #dde4e8;
+  --nc-sidebar:        #2b2d42;
+  --nc-sidebar-active: rgba(239, 35, 60, 0.16);
+
+  /* Lines */
+  --nc-line:           rgba(43, 45, 66, 0.10);
+  --nc-line-strong:    rgba(43, 45, 66, 0.18);
+
+  /* Text */
+  --nc-text:           #2b2d42;
+  --nc-text-muted:     #8d99ae;
+  --nc-text-dim:       rgba(43, 45, 66, 0.42);
+
+  /* Brand (punch-red) */
+  --nc-brand:          #ef233c;
+  --nc-brand-deep:     #d90429;
+  --nc-brand-soft:     rgba(239, 35, 60, 0.12);
+
+  /* Semantic */
+  --nc-success:        #1a7a4a;
+  --nc-success-soft:   rgba(26, 122, 74, 0.12);
+  --nc-warning:        #b85c00;
+  --nc-warning-soft:   rgba(184, 92, 0, 0.12);
+  --nc-danger:         #d90429;
+  --nc-danger-soft:    rgba(217, 4, 41, 0.10);
+  --nc-info:           #3a5a8c;
+  --nc-info-soft:      rgba(141, 153, 174, 0.20);
+
+  /* Route / map hues */
+  --nc-route-1: #ef233c;
+  --nc-route-2: #d4701a;
+  --nc-route-3: #1a7a4a;
+  --nc-route-4: #3a5a8c;
+  --nc-route-5: #7c4db0;
+
+  /* Sidebar text (sidebar is space-indigo in light mode) */
+  --nc-sidebar-text:       rgba(237, 242, 244, 0.92);
+  --nc-sidebar-text-muted: rgba(141, 153, 174, 0.85);
+  --nc-sidebar-text-dim:   rgba(237, 242, 244, 0.38);
+  --nc-sidebar-border:     rgba(141, 153, 174, 0.20);
+  --nc-sidebar-hover:      rgba(237, 242, 244, 0.08);
+}

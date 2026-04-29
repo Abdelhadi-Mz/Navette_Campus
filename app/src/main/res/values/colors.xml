@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme -->
+    <color name="dark_background">#0E1013</color>
+    <color name="dark_surface">#161A1F</color>
+    <color name="dark_border">#2A2F36</color>
+    <color name="dark_text_primary">#F1F3F5</color>
+    <color name="dark_text_muted">#6B7280</color>
+
+    <!-- Light theme -->
+    <color name="light_background">#FFFFFF</color>
+    <color name="light_surface">#F8F9FA</color>
+    <color name="light_border">#E2E8F0</color>
+    <color name="light_text_primary">#0E1013</color>
+    <color name="light_text_muted">#6B7280</color>
+
+    <!-- Brand colors (same in both themes) -->
+    <color name="primary">#E5484D</color>
+    <color name="primary_dark">#C73539</color>
+    <color name="success">#3DD68C</color>
+    <color name="success_light">#2BB576</color>
+    <color name="warning">#F5A623</color>
+    <color name="warning_dark">#D97706</color>
+    <color name="info">#4DA6FF</color>
+    <color name="info_dark">#2563EB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

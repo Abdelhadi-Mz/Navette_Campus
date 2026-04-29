@@ -1,0 +1,50 @@
+The real-world scenario
+Imagine you're a student at ENS Marrakech. You want to know where is the campus shuttle right now and when will it arrive at the library stop. That's the whole project.
+There are 3 people involved:
+
+You (student) — watching the shuttle on your phone
+The driver — driving and sharing his GPS location
+The admin — managing everything from a web page
+
+
+What each table represents
+shuttles — the physical bus itself
+Think of it as the vehicle registration card. It stores information about the bus that exists in real life — its name, plate number, how many seats it has, and who drives it. This doesn't change often.
+Navette 1 | A-1234-B | 25 seats | Driver: Mohammed
+Navette 2 | B-5678-C | 25 seats | Driver: Youssef
+
+stops — the bus stops around campus
+Like a map of all the stops. Each stop has a name and GPS coordinates so it can appear on the map. They also have an order — stop 1 is the first, stop 2 is second, etc.
+1. Entrée principale  → lat: 31.6295, lng: -7.9811
+2. Bibliothèque       → lat: 31.6300, lng: -7.9805
+3. Restaurant         → lat: 31.6290, lng: -7.9820
+
+shuttle_trips — one specific journey on one specific day
+This is the most important table to understand. A shuttle doesn't just exist — it goes on trips. Every time a driver starts his shift and begins driving, that creates a new trip. Think of it like a taxi meter being turned on.
+Trip #1 → Navette 1 | started 08:00 | status: active
+Trip #2 → Navette 1 | started 14:00 | status: finished
+Trip #3 → Navette 2 | started 09:00 | status: paused
+The same shuttle (Navette 1) can have many trips over many days — one trip per shift. When the driver clicks "start" on his phone, a new row is created here. When he clicks "finished", ended_at gets filled in.
+
+positions — the GPS breadcrumbs
+Every 5–10 seconds while the driver is moving, his phone sends its GPS location. Each one is saved here as a row. This is what allows students to see the shuttle moving in real time on the map.
+Trip #1 | lat: 31.6295 | lng: -7.9811 | 08:00:05
+Trip #1 | lat: 31.6296 | lng: -7.9812 | 08:00:10
+Trip #1 | lat: 31.6297 | lng: -7.9813 | 08:00:15
+This table grows very fast — thousands of rows per day. That's normal.
+
+How they connect
+Here's the flow from the moment the driver starts to the moment you see the shuttle on your map:
+Driver starts shift
+        ↓
+New row in shuttle_trips  ← linked to shuttles (which bus)
+        ↓
+Every 5 seconds, phone sends GPS
+        ↓
+New row in positions  ← linked to shuttle_trips (which trip)
+        ↓
+Your app asks: "where is Navette 1 right now?"
+        ↓
+API finds the LATEST position row for the active trip of Navette 1
+        ↓
+Your map shows the bus icon at those coordinates

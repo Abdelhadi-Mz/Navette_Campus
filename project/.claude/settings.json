@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -r \"#[0-9a-fA-F]\\\\{3,6\\\\}\" /c/Users/Destockafric/Desktop/ensS6/ProjectMobile/project/navette-web/src --include=\"*.css\" --include=\"*.jsx\" --include=\"*.js\")",
+      "Read(//c/Users/Destockafric/Desktop/ensS6/ProjectMobile/**)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\Destockafric\\.claude\\projects\\c--Users-Destockafric-Desktop-ensS6-ProjectMobile-project\\memory"
+    ]
+  }
+}

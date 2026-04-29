@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Navette Campus</string>
+    <string name="btn_student">Je suis étudiant</string>
+    <string name="btn_driver">Je suis chauffeur</string>
+    <string name="login">Connexion</string>
+    <string name="logout">Déconnexion</string>
+    <string name="shuttle_id">ID Navette</string>
+    <string name="pin">Code PIN</string>
+    <string name="active_shuttles">Navettes actives</string>
+    <string name="live_map">Carte en direct</string>
+    <string name="stops">Arrêts</string>
+    <string name="start_trip">Démarrer la tournée</string>
+    <string name="pause_trip">Pause</string>
+    <string name="finish_trip">Terminer</string>
+    <string name="status_active">En service</string>
+    <string name="status_pause">En pause</string>
+    <string name="status_finished">Terminé</string>
+    <string name="theme_system">Système</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="settings">Paramètres</string>
+    <string name="arrival_estimate">Arrivée estimée</string>
+    <string name="minutes">min</string>
+    <string name="no_active_shuttles">Aucune navette active</string>
+    <string name="connecting">Connexion...</string>
+    <string name="error_invalid_credentials">ID ou PIN incorrect</string>
+    <string name="error_network">Erreur réseau</string>
+</resources>
