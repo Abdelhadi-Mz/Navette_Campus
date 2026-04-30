@@ -60,6 +60,8 @@ Tableau de bord web (React)
         v
 Interface de suivi en temps réel"
 ```
+<img width="537" height="462" alt="image" src="https://github.com/user-attachments/assets/921b2081-45ba-4954-bb5e-b7e98e1f2831" />
+
 
 ### Flux du système
 
